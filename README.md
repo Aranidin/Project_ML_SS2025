@@ -40,7 +40,7 @@ In rows, where only one is missing, the other value is imputed based on the dist
 
 ### Decisions
 
-- Host profile pic? (yes, no)
+- Host profile pic? - 
 - description?
 - first review date ?
 - has_availability ?
@@ -50,14 +50,14 @@ In rows, where only one is missing, the other value is imputed based on the dist
 - host listings count ?
   - do both together and delete rest
 - host name ?
-- host response rate ?
-- host response time ?
+- host response rate - keep
+- host response time - keep
 - host thumbnail url
 - host since
 - host total listings count
 - host verifications
 - last review
-- licence
+- licence - delet
 - picture_url
 - price
 - rewiew-stuff
