@@ -41,12 +41,12 @@ In rows, where only one is missing, the other value is imputed based on the dist
 ### Decisions
 
 - Host profile pic? - 
-- description?
+- description? - impute with standart text
 - first review date ?
-- has_availability ?
+- has_availability ? - delete
 - host_acceptance ?
 - host identity verified ?
-- host is superhost ?
+- host is superhost - impute - reengeneer algorythm
 - host listings count ?
   - do both together and delete rest
 - host name ?
@@ -55,9 +55,9 @@ In rows, where only one is missing, the other value is imputed based on the dist
 - host thumbnail url
 - host since
 - host total listings count
-- host verifications
-- last review
-- licence - delet
+- host verifications - to yes or no
+- last review - Dinara
+- licence - delete
 - picture_url
 - price
 - rewiew-stuff
