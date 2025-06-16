@@ -24,6 +24,7 @@ Until 16.06: Do preprocessing
 - Spatial (Roo)
 - Calendar (Bendix)
 - Text (Dinara)
+-   Dinara: Try classify prices from text from e.g. 0 to 9 price classes
 
 ![timeline](timeline.png)
 
