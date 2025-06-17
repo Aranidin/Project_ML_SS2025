@@ -6,6 +6,10 @@ def missing_info(df, id_column, sort_clmn, sort_ascending=False):
     """ 
     returns Dataframe which shows information about missing values
     for eacht column of the Dataframe
+
+    id_column:  column which contains unique identifiers for each row
+    sort_clmn:  column by which the resulting DataFrame should be sorted
+    sort_ascending: whether to sort in ascending order (default is False)
     """
 
     missing_info = []
