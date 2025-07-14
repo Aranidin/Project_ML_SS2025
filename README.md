@@ -24,5 +24,48 @@ Until 16.06: Do preprocessing
 - Spatial (Roo)
 - Calendar (Bendix)
 - Text (Dinara)
+-   Dinara: Try classify prices from text from e.g. 0 to 9 price classes
 
 ![timeline](timeline.png)
+
+
+## Data Preprocessing
+
+### Deleted Columns
+The columns 'calendar_updated', 'host_neighbourhood', 'host_about', 'neighbourhood', 'neighborhood_overview', 'host_location`
+are deleted, because of a large amout of missing values, which are hard to impute
+
+### Beds and Bedroom
+All Rows where both are missing are deleted, whith is a rather small amount (~2 % of the original rows).
+In rows, where only one is missing, the other value is imputed based on the distribution of values of the other value or the respective value.
+
+### Decisions
+
+- Host profile pic? - 
+- description? - impute with standart text
+- first review date ?
+- has_availability ? - delete
+- host_acceptance ?
+- host identity verified ?
+- host is superhost - impute - reengeneer algorythm
+- host listings count ?
+  - do both together and delete rest
+- host name ?
+- host response rate - keep
+- host response time - keep
+- host thumbnail url
+- host since
+- host total listings count
+- host verifications - to yes or no
+- last review - Dinara
+- licence - delete
+- picture_url
+- price
+- rewiew-stuff
+
+
+## Help
+
+- how to analyze Bathroom(types) -> need to fix splitting of bathroom_text
+- check bed imputation 
+
